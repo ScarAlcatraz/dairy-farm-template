@@ -1,0 +1,12 @@
+.TandC-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .TandC-wrapper {
+    width: 70vw;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

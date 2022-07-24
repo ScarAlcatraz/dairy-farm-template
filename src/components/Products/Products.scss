@@ -1,0 +1,12 @@
+.Products-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  .Products-wrapper {
+    width: 70vw;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

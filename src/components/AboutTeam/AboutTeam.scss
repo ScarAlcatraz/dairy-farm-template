@@ -1,0 +1,83 @@
+.About-team-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  .About-team-wrapper {
+    width: 70vw;
+    padding: 100px 50px;
+    .About-title {
+      margin-bottom: 50px;
+      p {
+        font-size: 36px;
+        font-weight: bold;
+      }
+    }
+    .Team {
+      padding: 50px 150px;
+      display: flex;
+      justify-content: space-between;
+      .Member-image {
+        img {
+          width: 300px;
+          border-radius: 50%;
+        }
+      }
+      .Member-description {
+        width: 30vw;
+        padding: 10px 0;
+        font-size: 18px;
+        p {
+          padding: 10px 0;
+          text-align: justify;
+        }
+        .Member-name {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .About-team-container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    .About-team-wrapper {
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      .About-title {
+      p {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      }
+      .Team {
+        padding: 0px 0px;
+        display: flex;
+        justify-content: space-between;
+        .Member-image {
+          img {
+            width: 100px;
+            border-radius: 50%;
+          }
+        }
+        .Member-description {
+          width: 50vw;
+          margin-left: 10px;
+          font-size: 16px;
+          p {
+
+            text-align: justify;
+          }
+          .Member-name {
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

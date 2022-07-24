@@ -1,0 +1,121 @@
+.Home-section-container {
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  .Home-section-wrapper {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Home-section-image {
+      padding: 0px 100px 0px 0px;
+      img {
+        width: 700px;
+      }
+    }
+    .Home-section-desc {
+      width: 40vw;
+      display: flex;
+      flex-direction: column;
+      .Home-section-desc-title {
+        padding: 30px 0px;
+        font-size: 80px;
+      }
+      .Home-section-desc-title-body1 {
+        padding: 10px 0px;
+        font-size: 30px;
+      }
+      .Home-section-desc-title-body2 {
+        margin-top: 20px;
+        padding: 0px 0px;
+        font-size: 25px;
+      }
+      .Home-section-product-redirect {
+        margin-top: 50px;
+        padding: 15px 5px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(233, 233, 233);
+        width: 250px;
+        text-decoration: none;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 2px 0 rgba(99, 99, 99, 0.25);
+        cursor: pointer;
+      }
+      .Home-section-product-redirect:hover {
+        background-color: rgb(212, 212, 212);
+      }
+      .Home-section-desc-title-foot {
+        margin-top: 10px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Home-section-container {
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    .Home-section-wrapper {
+      width: 100vw;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .Home-section-image {
+        padding: 0px 0px 10px 0px;
+        img {
+          width: 300px;
+        }
+      }
+      .Home-section-desc {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .Home-section-desc-title {
+          padding: 30px 0px;
+          font-size: 30px;
+        }
+        .Home-section-desc-title-body1 {
+          padding: 10px 0px;
+          font-size: 18px;
+        }
+        .Home-section-desc-title-body2 {
+          margin-top: 20px;
+          padding: 0px 0px;
+          font-size: 15px;
+        }
+        .Home-section-product-redirect {
+          margin-top: 40px;
+          padding: 10px 5px;
+          font-size: 12px;
+          color: rgb(0, 0, 0);
+          background-color: rgb(233, 233, 233);
+          width: 120px;
+          text-decoration: none;
+          text-align: center;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0px 2px 0 rgba(99, 99, 99, 0.25);
+          cursor: pointer;
+        }
+        .Home-section-product-redirect:hover {
+          background-color: rgb(212, 212, 212);
+        }
+        .Home-section-desc-title-foot {
+          margin-top: 10px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

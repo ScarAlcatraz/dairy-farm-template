@@ -1,0 +1,102 @@
+.Contact-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  .Contact-wrapper {
+    width: 70vw;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    .Contact-information {
+      .Contact-title {
+        margin-bottom: 50px;
+        p {
+          font-size: 36px;
+          font-weight: bold;
+        }
+      }
+      .Contact-details {
+        padding: 50px 0;
+        font-size: 18px;
+        .Contact-address {
+          margin-bottom: 20px;
+        }
+        .Contact-mail {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          p {
+            margin-left: 15px;
+          }
+        }
+        .Contact-phone {
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+          p {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+    .Contact-image {
+      img {
+        width: 600px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Contact-container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    .Contact-wrapper {
+      width: 80vw;
+      padding: 100px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .Contact-information {
+        .Contact-title {
+          margin-bottom: 10px;
+          p {
+            font-size: 25px;
+            font-weight: bold;
+          }
+        }
+        .Contact-details {
+          padding: 40px 0;
+          font-size: 14px;
+          .Contact-address {
+            margin-bottom: 20px;
+          }
+          .Contact-mail {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            p {
+              margin-left: 15px;
+            }
+          }
+          .Contact-phone {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0px;
+            p {
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+      .Contact-image {
+        display: flex;
+        flex-direction: row-reverse;
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+}

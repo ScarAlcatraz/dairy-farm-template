@@ -1,0 +1,164 @@
+.Footer-container {
+  height: 40vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Footer-wrapper {
+    padding: 30px 0px;
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .Footer-top {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 50px;
+      .Pages {
+        display: flex;
+        flex-direction: column;
+        .Pages-title {
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+        a {
+          padding: 10px 0px;
+          text-decoration: none;
+          color: #000000;
+        }
+      }
+      .Legal-Support {
+        .Legal {
+          .Legal-title {
+            margin-bottom: 20px;
+            font-size: 18px;
+          }
+          a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #000000;
+          }
+        }
+        .Support {
+          .Support-title {
+            margin: 20px 0px;
+            font-size: 18px;
+          }
+          a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #000000;
+          }
+        }
+      }
+      .Social {
+        width: 100px;
+        .Social-title {
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+        .Link-tags {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    .Footer-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .Footer-logo {
+        width: 40px;
+      }
+      .Copyright-statement {
+        margin: 0px 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Footer-container {
+    height: 35vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Footer-wrapper {
+      padding: 30px 0px;
+      height: 25vh;
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .Footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        .Pages {
+          display: flex;
+          flex-direction: column;
+          .Pages-title {
+            margin-bottom: 10px;
+            font-size: 16px;
+          }
+          a {
+            padding: 10px 0px;
+            font-size: 14px;
+            color: #000000;
+            text-decoration: none;
+          }
+        }
+        .Legal-Support {
+          .Legal {
+            .Legal-title {
+              margin-bottom: 20px;
+              font-size: 16px;
+            }
+            a {
+              font-size: 14px;
+              text-decoration: none;
+              color: #000000;
+            }
+          }
+          .Support {
+            .Support-title {
+              margin: 20px 0px;
+              font-size: 16px;
+            }
+            a {
+              font-size: 14px;
+              text-decoration: none;
+              color: #000000;
+            }
+          }
+        }
+        .Social {
+          width: 100px;
+          .Social-title {
+            margin-bottom: 20px;
+            font-size: 16px;
+          }
+          .Link-tags {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+      .Footer-bottom {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Footer-logo {
+          width: 40px;
+        }
+        .Copyright-statement {
+          font-size: 10px;
+          margin: 0px 10px;
+        }
+      }
+    }
+  }
+}
