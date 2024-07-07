@@ -29,15 +29,15 @@ This is a basic social media web application built using the MERN (MongoDB, Expr
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/ScarAlcatraz/dairy-farm-template.git
+   git clone https://github.com/ScarAlcatraz/dairy-farm-website-template.git
    
 
 2. Navigate to the project directory:
 
    ```bash
-   cd dairy-farm-template
+   cd dairy-farm-website-template
 
-3. Once inside `dairy-farm-template` directory and install server dependencies:
+3. Once inside `dairy-farm-website-template` directory and install server dependencies:
 
    ```bash
    npm install
