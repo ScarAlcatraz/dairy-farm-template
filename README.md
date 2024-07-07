@@ -1,4 +1,4 @@
-# dairy-start-up
+# Dairy Farm Website Template
 A responsive website for a local start-up using React.js, React-Router-DOM and @mui.
 
 
