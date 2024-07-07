@@ -1,5 +1,7 @@
 # Dairy Farm Website Template
 
+![App Screenshot](images/dairy-farm-website-template-1.png) <!-- Add a GIF or screenshot of your app here -->
+
 ## Table of Contents
 
 - [Description](#description)
