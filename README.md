@@ -10,12 +10,11 @@
 
 ## Description
 
-This is a basic social media web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It provides users with the ability to create accounts, log in, post updates with pictures, and add friends. The application serves as a starting point for developers looking to build a more feature-rich social media platform.
+This is a responsive dairy farm website using React and Material-UI, featuring a basic design and ensuring a seamless user experience across various devices, including desktops and mobile platforms.
 
 ## Features
 
-- User Registration: Users can create accounts with a username and password.
-- User Authentication: Users can log in securely using their credentials.
+- User Experience: The application is designed to have a clean user experience.
 - Responsive Design: The application is designed to work on various screen sizes.
 
 ## Technologies Used
