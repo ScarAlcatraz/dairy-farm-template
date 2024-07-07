@@ -1,4 +1,4 @@
-# Dairy Farm Website Template
+# Dairy Start Up Website Template
 
 ![App Screenshot](images/dairy-farm-website-template-1.png) <!-- Add a GIF or screenshot of your app here -->
 
@@ -30,15 +30,15 @@ This is a responsive dairy farm website using React and Material-UI, featuring a
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/ScarAlcatraz/dairy-farm-website-template.git
+   git clone https://github.com/ScarAlcatraz/dairy-startUp-website-template.git
    
 
 2. Navigate to the project directory:
 
    ```bash
-   cd dairy-farm-website-template
+   cd dairy-startUp-website-template
 
-3. Once inside `dairy-farm-website-template` directory and install server dependencies:
+3. Once inside `dairy-startUp-website-template` directory and install server dependencies:
 
    ```bash
    npm install
